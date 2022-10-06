@@ -1,0 +1,14 @@
+Multi-factor authentication adds an extra layer of security during user authentication. MFA requires a user to provide a generated code before they can sign in to their account.
+steps
+login to the IAM console > Users > select the user you want to attach MFA to
+on the user tabs, click on > security credentials > assign MFA device > manage
+![mfa 1](https://user-images.githubusercontent.com/113246484/194371910-c7a9fdbf-8edd-4cf2-9fca-7f5c9930eeca.png)
+Ensure you have a compatible authentication application on your mobile device. 
+select > virtual MFA device >show QR code > scan the QR code with your mobile dvice from the authenticator app
+![mfa 2](https://user-images.githubusercontent.com/113246484/194371954-abedc55c-faae-4ed9-b1b9-392c77d9627d.png)
+Enter the generated codes on your AWS accounts and cick on 'enable MFA'
+![mfa 3](https://user-images.githubusercontent.com/113246484/194372015-a7410a5a-cee8-4df6-9377-29d1539b2559.png)
+the user will be required to provide authentication code on their next login
+![mfa 4](https://user-images.githubusercontent.com/113246484/194372074-18898419-0327-49ab-b559-c91dcb46695b.png)
+
+
