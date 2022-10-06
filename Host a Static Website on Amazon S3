@@ -1,0 +1,26 @@
+Amazon S3 is the object storage service for AWS. It is used for storing objects in an AWS account.
+For this project, I hosted a static website on Amazon S3
+Steps
+copy and unzip the source code of the static website
+paste itt in a folder you can easily located on your device
+login to AWS S3 console > create bucket 
+configure bucket settings > choose a unique bucket name
+untick the 'block all public access' tab
+![static website 1](https://user-images.githubusercontent.com/113246484/194394070-f9edb3b7-ceeb-4896-87e5-9cf7321456a9.png)
+enable encryption with AWS managed keys
+create bucket
+![static website 2](https://user-images.githubusercontent.com/113246484/194394110-4873fef8-bb3d-4edd-9528-b04ee727f08a.png)
+
+click on the S3 bucket > upload
+Add the unzipped folder. Note that you have to select the items in the folder one after the other, do not copy and paste the folder at once
+![static website 3](https://user-images.githubusercontent.com/113246484/194394374-5f71d542-eba3-4e30-9101-d60099a00071.png)
+Navigate to > Destination details > click on 'enable bucket versioning' > create bucket > close the tab to navigate back to your S3 bucket
+click on > properties > navigate to static website hosting > click on edit > enable static website hosting
+![static website 5](https://user-images.githubusercontent.com/113246484/194394493-a7ec9f71-2a00-4c7e-9b4e-7d3449c66c90.png)
+Navigate to the index document > specify the default/home page and error page of the website in the boxes provided > save changes
+Navigate back to the bucket tabs > click on permissions > navigate to bucket policy > edit
+click on > add policy > copy and paste the 'Readonly policy' permission in JSON and paste in the policy section
+scroll to line 12 of the policy, replace the AWS arn with your bucket name > save changes
+![static website 6](https://user-images.githubusercontent.com/113246484/194394548-924df094-88ed-4089-ace7-9604e3d74537.png)
+Navigate back to properties > navigate to Static website hosting > click on the bucket URL to access the website.
+![static website 7](https://user-images.githubusercontent.com/113246484/194394595-755b190b-e35f-47b0-ba83-928b93b5b397.png)
