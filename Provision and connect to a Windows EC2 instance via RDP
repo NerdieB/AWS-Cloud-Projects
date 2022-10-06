@@ -3,16 +3,25 @@ For this project, I provisioned a Windows EC2 instance and connected to it via R
 Steps
 To launch and instance;
 login to the management console > Compute > EC2
+![ec2 1](https://user-images.githubusercontent.com/113246484/194380699-aa97fa57-cc72-421e-8749-2f35e6c1470e.png)
 click > launch instance > select the Operatig system (in this case, a Windows server)
+![ec2 2](https://user-images.githubusercontent.com/113246484/194380709-fcb5c645-5e08-4d39-b3be-d37724232fae.png)
 Name our server > select the configuration to suit you, or you can go with the default configuration
 create and download your keypair > click on 'launch instance'
+![ec2 3](https://user-images.githubusercontent.com/113246484/194380785-abb2a9a7-f9f2-438b-8999-4c3cf80b541b.png)
+![ec2 4](https://user-images.githubusercontent.com/113246484/194380852-8c57b9c4-c3ed-4e9c-97a9-ad352bdd5d03.png)
+![ec2 5](https://user-images.githubusercontent.com/113246484/194380905-183cd692-196e-493f-b2b8-719c142d337b.png)
 To connect to the instance; 
 On the left side of the Compute console, click > Instances
 Select the instance you want to connect to > click on 'connect'
+![ec2 6](https://user-images.githubusercontent.com/113246484/194381009-902119a8-08cd-4122-a5ff-59926f9920a1.png)
 On the new window that comes up, click on 'RDP Client'
 Download the remote desktop file
+![ec2 7](https://user-images.githubusercontent.com/113246484/194381062-93239943-abe2-42b3-9c5c-b3cbdf5d983e.png)
 Get your password using the keypair you created while provisioning the instance (click on 'browse' to locate the keypair)
 click on 'decrypt password' > copy the decrypted password
+![ec2 8](https://user-images.githubusercontent.com/113246484/194381121-1467321f-7852-4592-bcfd-b6ef4ad224ec.png)
 click on the downloaded RDP file > connect
 Use default admin credentials and the decrypted password to login
 click > ok > yes > connect
+![ec2 9](https://user-images.githubusercontent.com/113246484/194381188-76e92af9-9dc8-42ea-a8ff-972a7b489414.png)
