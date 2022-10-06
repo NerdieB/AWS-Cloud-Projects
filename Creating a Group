@@ -1,0 +1,9 @@
+creating a user group is one of IAM best practices. Users automatically inherit the permissions and policies associated with a group. 
+creating a user group saves you the time and stress of attaching policies and permissions each time you create a new user.
+steps involved
+login to the IAM console > user group > create group
+![group 1](https://user-images.githubusercontent.com/113246484/194368182-c5b02b4c-68ac-48d8-8357-5ff74db0194e.png)
+set your group name > attach permissions to the group
+![group 2](https://user-images.githubusercontent.com/113246484/194368256-031cc4ef-1f53-41e3-9bdf-1d08366437e6.png)
+review group settings > click on 'create group'
+![group 3](https://user-images.githubusercontent.com/113246484/194368332-38507798-7b0a-45be-8158-a5aac6d36fa8.png)
