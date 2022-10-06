@@ -1,3 +1,3 @@
 # AWS Cloud Projects
 Cloud projects on AWS as a cloud security analyst
-![image](https://user-images.githubusercontent.com/113246484/194341026-dd5facb2-931b-4d83-9148-87610d60f2f5.png)
+![image](https://user-images.githubusercontent.com/113246484/194341389-245290a9-6703-41f2-9963-c292af3bf205.png)
