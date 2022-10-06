@@ -5,3 +5,5 @@ set the username of the user > select your preferred AWS access type > set passw
 set permissions: this enables you to attach user permissions to certain AWS services
 add tags (this is optional) > review your settings > click on 'create user'
 download the .csv file of the user you created. This is very important as it contains all the details about the user.
+
+
