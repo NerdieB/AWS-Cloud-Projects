@@ -1,2 +1,3 @@
-# Static-Website-Hosting
-Hosting a static website on Amazon S3
+# AWS Cloud Projects
+Cloud projects on AWS as a cloud security analyst
+
