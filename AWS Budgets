@@ -1,4 +1,10 @@
-Setting up cost budgets, billing alerts and and cost threshold to help manage cost and usage of resources in an AWS account
+Setting up cost budgets, billing alerts and and threshold to help manage cost and usage of resources in an AWS account
 Steps
 login to the AWS management console
-on the search box, search for 'Cost explorer' and click on 'Budgets'
+on the search box, search for 'Cost explorer' and click on 'Budgets' then click on 'Create budgets'
+![image](https://user-images.githubusercontent.com/113246484/194350069-12cba385-045b-44aa-af6d-83e08fc7a24e.png)
+follow the instructions on the left side panel of the console to configure your budgets and alerts
+![image](https://user-images.githubusercontent.com/113246484/194350196-b2af9b0b-d31f-415b-aca5-5f76ffee9c4f.png)
+configure threshold to receive alerts when your resource usage goes beyond the set budget
+review settings and configuration, then click on "create budget"
+![image](https://user-images.githubusercontent.com/113246484/194350324-994e47fd-5846-4c98-a78f-17b3bc6a91fd.png)
